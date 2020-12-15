@@ -1,0 +1,24 @@
+{
+    "name": "ugyen/consoleapp",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Ugyen Tenzin",
+            "email": "ugyen10z@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {"src\\": "src"},
+    "autoload-dev":{
+            "psr-4": {"phpreboot\\": "tests/phpreboot"}
+        },
+               
+    "require": {}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "require": {
+        "symfony/console": "^5.2"
+    }
+}

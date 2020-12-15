@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+colors="true">
+<testsuits>
+<testsuit name ="unit">
+<directory> tests/phpreboot</directory>
+
+</testsuit>
+</testsuits>
+
+<filter>
+<whitelist processUncoveredFilesFromWhiteList="true">
+<directory suffix=".php"> src/phpreboot/</directory>
+</whitelist>
+</filter>
+</phpunit>
